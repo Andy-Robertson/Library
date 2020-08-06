@@ -1,4 +1,4 @@
 # My Library Books
 
 
-App to keep track of library books that are out on loan.
+App that keeps track of library books that are out on loan.
