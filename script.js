@@ -1,10 +1,7 @@
 let myLibrary = [];
 
-function Book() {
+function Book(title, author, pages, read) {
     // the constructor...
-}
-
-function addBookToLibrary(title, author, pages, read) {
 
     this.title = title;
     this.author = author;
@@ -12,3 +9,13 @@ function addBookToLibrary(title, author, pages, read) {
     this.read = read;
 
 }
+
+
+
+function addBookToLibrary() {
+
+
+
+}
+
+const book1 = new Book("Gone with the wind", "James May", 234, "not read yet");
