@@ -8,13 +8,20 @@ function Book(title, author, pages, read) {
     this.pages = pages;
     this.read = read;
 
+    this.info = function () {
+
+        return '${this.title} by ${this.author}, ${this.pages}, ${this.read}';
+
+    }
+
 }
-
-
 
 function addBookToLibrary() {
 
-
+    let title = document.getElementById('title').value;
+    let author = document.getElementById('author').value;
+    let pages = document.getElementById('pages').value;
+    let read = document.getElementById('read').value;
 
 }
 
